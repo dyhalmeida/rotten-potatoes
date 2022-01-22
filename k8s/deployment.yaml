@@ -80,4 +80,4 @@ spec:
   - port: 80
     targetPort: 5000 # porta do containerPort declarada do POD do deployment
     nodePort: 30000 # porta do cluster
-  type: NodePort
+  type: LoadBalancer
