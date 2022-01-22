@@ -22,5 +22,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            dyhalmida/rotten-potatoes:latest
-            dyhalmida/rotten-potatoes: ${{ github.run_number }}
+            dyhalmeida/rotten-potatoes:latest
+            dyhalmeida/rotten-potatoes: ${{ github.run_number }}
